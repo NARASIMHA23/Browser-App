@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/apnnn"
+    >
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="ENTER URL"
+        android:background="@drawable/border"
+        android:textColorHint="#2eed08"
+        android:textColor="#fc0101"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="23sp"
+        android:layout_marginTop="119dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME TO NARASIMA BROWSER"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="55dp"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:background="@drawable/border"
+        android:layout_height="wrap_content"
+        android:text="GOTO"
+        android:textColor="#f9e404"
+
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
